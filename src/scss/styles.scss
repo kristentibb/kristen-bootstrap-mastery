@@ -18,12 +18,17 @@
 // $font-family-sans-serif: "Helvetica Neue";
 
 $primary: #0f7198;
+$secondary: rgba(59, 28, 2, 0.736);
 $body-bg: #ededed;
 
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials:
+@import 'jumbotron';
+@import 'index';
+@import 'article';
+@import 'photos';
 
 // Custom styles:
 
